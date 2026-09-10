@@ -12876,7 +12876,79 @@
           }
         }
       ],
-      "HasResults": true
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Tizanidine simulated",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4",
+                "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "Min": 72.5,
+            "AutoRange": false
+          },
+          "YAxisSettings": {
+            "AutoRange": false
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Tizanidine\nTizanidine 4mg po tablet fasted population\n2020-07-13 17:26"
+        }
+      ]
     }
   ],
   "ObservedData": [
@@ -14866,5 +14938,6 @@
         "Tizanidine 6mg po capsule fasted"
       ]
     }
-  ]
+  ],
+  "ApplicationName": "PK-Sim"
 }
