@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -362,7 +362,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -452,7 +452,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -467,7 +467,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -889,7 +889,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -1855,7 +1855,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.009497637,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 2mg po tablet fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control",
+              "X": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control|Time",
+              "Y": "Momo2010.Tizanedine.2mg.po.sd.Tab_fed.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 2mg po tablet fed",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 2mg po tablet fed",
+          "OriginText": "Tizanidine\nTizanidine 2mg po tablet fed\n2020-07-13 13:15"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 4mg po tablet fasted",
@@ -1973,7 +2045,123 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.001,
+              "Max": 3.591087,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg po tablet fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control",
+              "X": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control|Time",
+              "Y": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control",
+              "X": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control|Time",
+              "Y": "Backman2006.Tizanidine.4mg.po.Tab_fasted.Control|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers",
+              "X": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers|Time",
+              "Y": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.male-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers",
+              "X": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers|Time",
+              "Y": "Backman2008.Tizanidine.4mg.po.sd.Tab_fasted.female-nonsmokers|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted",
+              "X": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted|Time",
+              "Y": "Al-Ghazawi2013.Tizanidine.4mg.po.sd.Tab_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg po tablet fasted",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 4mg po tablet fasted",
+          "OriginText": "Tizanidine\nTizanidine 4mg po tablet fasted\n2020-07-13 13:27"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 4mg po tablet fed",
@@ -2067,7 +2255,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.01586522,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg po tablet fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed",
+              "X": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed|Time",
+              "Y": "Henney2007.Tizanidine.4mg.po.sd.Tab_fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg po tablet fed",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 4mg po tablet fed",
+          "OriginText": "Tizanidine\nTizanidine 4mg po tablet fed\n2020-07-13 13:56"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 4mg po capsule fed",
@@ -2171,7 +2431,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.01054845,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg po capsule fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed",
+              "X": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed|Time",
+              "Y": "Henney2007.Tizanidine.4mg.po.sd.Cap_fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg po capsule fed",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 4mg po capsule fed",
+          "OriginText": "Tizanidine\nTizanidine 4mg po capsule fed\n2020-07-13 13:58"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 4mg t.i.d. po tablet fasted",
@@ -2343,7 +2675,90 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 3.27769,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 4mg t.i.d. po tablet fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted",
+              "X": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted|Time",
+              "Y": "Tse1987.Tizanidine.4mg.po.tid.TAB_fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3",
+              "X": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3|Time",
+              "Y": "Schellenberger1999.Tizanidine.4mg.po.tid.Day3|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 4mg tid po tablet fasted",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 4mg tid po tablet fasted",
+          "OriginText": "Tizanidine\nTizanidine 4mg t.i.d. po tablet fasted\n2020-07-13 14:10"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 8mg po tablet fed",
@@ -2437,7 +2852,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 5.339806,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po tablet fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po tablet fed",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 8mg po tablet fed",
+          "OriginText": "Tizanidine\nTizanidine 8mg po tablet fed\n2020-07-13 14:16"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 8mg po tablet fasted",
@@ -2531,7 +3018,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 5.339806,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po tablet fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Tab_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po tablet fasted",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 8mg po tablet fasted",
+          "OriginText": "Tizanidine\nTizanidine 8mg po tablet fasted\n2020-07-13 14:25"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 8mg po capsule fasted",
@@ -2625,7 +3184,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.02,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po capsule fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po capsule fasted",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Tizanidine\nTizanidine 8mg po capsule fasted\n2020-07-13 15:21"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 8mg po capsule fed",
@@ -2729,7 +3359,79 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0001,
+              "Max": 0.02,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 8mg po capsule fed|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed",
+              "X": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed|Time",
+              "Y": "Shah2006.Tizanidine.8mg.po.sd.Cap_Fed|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 8mg po capsule fed",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 8mg po capsule fed",
+          "OriginText": "Tizanidine\nTizanidine 8mg po capsule fed\n2020-07-13 15:24"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 6mg po capsule fasted",
@@ -2823,7 +3525,77 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tizanidine simulated",
+              "X": "Time",
+              "Y": "Tizanidine 6mg po capsule fasted|Organism|PeripheralVenousBlood|Tizanidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted",
+              "X": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted|Time",
+              "Y": "Henney2008.Tizanidine.6mg.po.sd.Cap_Fasted|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Tizanidine 6mg po capsule fasted",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Tizanidine 6mg po capsule fasted",
+          "OriginText": "Tizanidine\nTizanidine 6mg po capsule fasted\n2020-07-13 15:27"
+        }
+      ]
     },
     {
       "Name": "Tizanidine 4mg po tablet fasted population",
@@ -2922,12 +3694,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -3938,7 +4710,7 @@
         },
         {
           "Path": "Organism|ArterialBlood|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -3980,7 +4752,7 @@
         },
         {
           "Path": "Organism|ArterialBlood|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4010,7 +4782,7 @@
         },
         {
           "Path": "Organism|Bone|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4134,13 +4906,13 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Initial concentration",
-          "Value": 5.6256291822E-05,
+          "Value": 5.6256291822e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
@@ -4229,7 +5001,7 @@
         },
         {
           "Path": "Organism|Bone|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4271,7 +5043,7 @@
         },
         {
           "Path": "Organism|Brain|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4395,13 +5167,13 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Initial concentration",
-          "Value": 4.1529351875E-05,
+          "Value": 4.1529351875e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -4480,7 +5252,7 @@
         },
         {
           "Path": "Organism|Brain|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4532,7 +5304,7 @@
         },
         {
           "Path": "Organism|Fat|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4751,7 +5523,7 @@
         },
         {
           "Path": "Organism|Fat|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4793,7 +5565,7 @@
         },
         {
           "Path": "Organism|Gonads|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4965,7 +5737,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -5012,7 +5784,7 @@
         },
         {
           "Path": "Organism|Gonads|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5054,7 +5826,7 @@
         },
         {
           "Path": "Organism|Heart|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5273,7 +6045,7 @@
         },
         {
           "Path": "Organism|Heart|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5315,7 +6087,7 @@
         },
         {
           "Path": "Organism|Kidney|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5445,7 +6217,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -5471,13 +6243,13 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Initial concentration",
-          "Value": 1.3902681231E-05,
+          "Value": 1.3902681231e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -5546,7 +6318,7 @@
         },
         {
           "Path": "Organism|Kidney|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5588,7 +6360,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5807,7 +6579,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6038,7 +6810,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6080,7 +6852,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6311,7 +7083,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6353,7 +7125,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6584,7 +7356,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6626,7 +7398,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6857,7 +7629,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6899,7 +7671,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7130,7 +7902,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7172,7 +7944,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Rectum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7403,7 +8175,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Rectum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7445,7 +8217,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7487,7 +8259,7 @@
         },
         {
           "Path": "Organism|Liver|Pericentral|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7760,7 +8532,7 @@
         },
         {
           "Path": "Organism|Liver|Periportal|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7991,7 +8763,7 @@
         },
         {
           "Path": "Organism|Liver|Periportal|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8693,7 +9465,7 @@
         },
         {
           "Path": "Organism|Lung|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8849,7 +9621,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         },
         {
@@ -8907,12 +9679,12 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8954,7 +9726,7 @@
         },
         {
           "Path": "Organism|Muscle|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9173,7 +9945,7 @@
         },
         {
           "Path": "Organism|Muscle|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9215,7 +9987,7 @@
         },
         {
           "Path": "Organism|Pancreas|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9434,7 +10206,7 @@
         },
         {
           "Path": "Organism|Pancreas|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9476,7 +10248,7 @@
         },
         {
           "Path": "Organism|PortalVein|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9518,7 +10290,7 @@
         },
         {
           "Path": "Organism|PortalVein|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9548,7 +10320,7 @@
         },
         {
           "Path": "Organism|Skin|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9767,7 +10539,7 @@
         },
         {
           "Path": "Organism|Skin|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9809,7 +10581,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10028,7 +10800,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10259,7 +11031,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10301,7 +11073,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10532,7 +11304,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10574,7 +11346,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10805,7 +11577,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10847,7 +11619,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11078,7 +11850,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11120,7 +11892,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11351,7 +12123,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11393,7 +12165,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11435,7 +12207,7 @@
         },
         {
           "Path": "Organism|Spleen|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11654,7 +12426,7 @@
         },
         {
           "Path": "Organism|Spleen|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11696,7 +12468,7 @@
         },
         {
           "Path": "Organism|Stomach|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11915,7 +12687,7 @@
         },
         {
           "Path": "Organism|Stomach|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11957,7 +12729,7 @@
         },
         {
           "Path": "Organism|VenousBlood|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11999,7 +12771,7 @@
         },
         {
           "Path": "Organism|VenousBlood|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12104,7 +12876,7 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true
     }
   ],
   "ObservedData": [
@@ -12189,7 +12961,7 @@
                 0.000634359,
                 0.00040734556,
                 0.00020704334,
-                5.3438194E-05
+                5.3438194e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -12533,7 +13305,7 @@
             "MolWeight": 253.711
           },
           "Values": [
-            8.737864E-05,
+            8.737864e-05,
             0.00042718445,
             0.0008932039,
             0.0016116505,
@@ -12765,8 +13537,8 @@
             0.0021151078,
             0.0014136691,
             0.00030215827,
-            9.7122305E-05,
-            4.3165466E-05
+            9.7122305e-05,
+            4.3165466e-05
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -12871,7 +13643,7 @@
           },
           "Values": [
             0.0,
-            9.7122305E-05,
+            9.7122305e-05,
             0.00031294965,
             0.00070143887,
             0.0014136691,
@@ -13091,8 +13863,8 @@
                 0.0005773928,
                 0.0003802343,
                 0.00022532401,
-                8.44965E-05,
-                3.519944E-05
+                8.44965e-05,
+                3.519944e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -13221,7 +13993,7 @@
                 0.00064075773,
                 0.00037318547,
                 0.00014786144,
-                3.519944E-05
+                3.519944e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -13356,7 +14128,7 @@
                 0.00045256512,
                 0.00024689437,
                 0.000102745966,
-                6.161181E-05
+                6.161181e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -13639,8 +14411,8 @@
                 0.0003854586,
                 0.00027532622,
                 0.0001927363,
-                7.7083336E-05,
-                5.505686E-05
+                7.7083336e-05,
+                5.505686e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -13779,8 +14551,8 @@
                 0.00054587837,
                 0.0003652427,
                 0.00017510274,
-                6.637514E-05,
-                2.264177E-05
+                6.637514e-05,
+                2.264177e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -14015,8 +14787,8 @@
                 0.00054587837,
                 0.0003652427,
                 0.00017510274,
-                6.637514E-05,
-                2.264177E-05
+                6.637514e-05,
+                2.264177e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
@@ -14040,7 +14812,7 @@
             0.0008152587,
             0.0004315488,
             0.00015553605,
-            5.053872E-05
+            5.053872e-05
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
