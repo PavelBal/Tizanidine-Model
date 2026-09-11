@@ -1,6 +1,7 @@
 {
   "Name": "Tizanidine-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -14938,6 +14939,5 @@
         "Tizanidine 6mg po capsule fasted"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
