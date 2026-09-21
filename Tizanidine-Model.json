@@ -1578,6 +1578,7 @@
       "Name": "PO_4mg_SD",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -1603,6 +1604,7 @@
       "Name": "PO_8mg_SD",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -1709,59 +1711,28 @@
     },
     {
       "Name": "PO_4mg_day4",
+      "ApplicationType": "Oral",
       "DosingInterval": "Single",
-      "Schemas": [
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 4.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 73.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0,
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            }
-          ]
+          "Name": "Start time",
+          "Value": 73.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 4.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     }
   ],
   "Events": [
@@ -2425,17 +2396,13 @@
                 "Name": "Tizanidine tablet fasted",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
@@ -3353,17 +3320,13 @@
                 "Name": "Tizanidine tablet fasted",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
