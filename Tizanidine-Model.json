@@ -1496,6 +1496,13 @@
             "Source": "Database",
             "Description": "DrugBank DB00697"
           }
+        },
+        {
+          "Name": "Use bile salt micellization",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         }
       ]
     }
